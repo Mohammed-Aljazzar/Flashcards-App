@@ -27,7 +27,7 @@ A simple web-based flashcard application built with Django to help users study a
 ### Steps
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/flashcards-app.git
+   git clone https://github.com/Mohammed-Aljazzar/flashcards-app.git
    cd flashcards-app
    ```
 2. **Set Up a Virtual Environment**
@@ -51,9 +51,14 @@ A simple web-based flashcard application built with Django to help users study a
   Open your browser and go to http://127.0.0.1:8000/.
 
 
+## Usage
+- Create a Flashcard: Navigate to /card-create/ to add a new card with a question, answer, and box number.
+- View All Cards: Go to /card-list/ to see all flashcards, sorted by box and creation date.
+- Review Cards by Box: Visit /box/<box_number>/ (e.g., /box/1/) to see cards in a specific box. A random card will be displayed for review.
+- Check a Card: Submit the form on the box page to mark whether you answered correctly (solved=True) or not (solved=False). The card will move to the next box if correct or back to box 1 if incorrect.
 
-
-
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
